@@ -1,0 +1,30 @@
+.inputZone{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.radioInputs{
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  margin-right: 70px;
+}
+
+.buttonList{
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  column-gap: 20px;
+}
+
+.arrayDisplay{
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  align-items: flex-end;
+  justify-content: center;
+  column-gap: 10px;
+}

@@ -1,0 +1,25 @@
+.inputZone{
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  width:70%;
+  margin: 20px auto
+
+}
+
+.input{
+  width: 200px;
+}
+
+.indexButton{
+  width: 380px
+}
+
+.sequence{
+  display: flex;
+  flex-direction: row;
+  margin: 60px auto;
+  width: 80%;
+  justify-content: center;
+  column-gap: 20px;
+}

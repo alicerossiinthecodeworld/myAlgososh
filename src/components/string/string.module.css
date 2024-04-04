@@ -1,0 +1,23 @@
+.inputZone{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  margin: auto;
+  width: 576px;
+}
+
+
+.sequence{
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  color:#0032ff
+}
+
+.circleMargin{
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
