@@ -1,40 +1,37 @@
 import cypress from 'cypress';
-import { ElementStates } from '../../src/types/element-states';
+import { ElementStates, colorMap } from '../../src/types/element-states';
 import { reverseStringSteps } from '../../src/components/string/utils';
-
-const colorMap = new Map();
-colorMap.set(ElementStates.Default, 'rgb(0, 50, 255)')
-colorMap.set(ElementStates.Changing, 'rgb(210, 82, 225)')
-colorMap.set(ElementStates.Modified, 'rgb(127, 224, 81)')
 
 const visitString = () => {
   cy.visit('/recursion');
 };
 
 describe('Строка работает', () => {
-  it('если в инпуте пусто, кнопка добавления недоступна', () => {
+  beforeEach(()=>{
     visitString();
-    cy.get(`[data-cy="string_input"]`).clear();
-    cy.get(`[data-cy="string_button"]`).should('be.disabled');
+    cy.get(`[data-cy="string_input"]`).as('input')
+    cy.get(`[data-cy="string_button"]`).as('button')
+  })
+  it('если в инпуте пусто, кнопка добавления недоступна', () => {
+    cy.get('@input').clear();
+    cy.get('@button').should('be.disabled');
   });
 
   it('строка разворачивается корректно с проверкой каждого шага анимации', () => {
-    visitString();
-    const testString = 'Пидорас';
-    cy.get(`[data-cy="string_input"]`).type(testString);
+    const testString = 'Разворот';
+    cy.get('@input').type(testString);
   
     const steps = reverseStringSteps(testString);
-    cy.get(`[data-cy="string_button"]`).click();
-  
+    cy.get('@button').click();
+    cy.get(`[data-cy="letters"]`).as('letters')
     steps.forEach((step, stepIndex) => {
-      cy.get(`[data-cy="letters"]`).children()
+      cy.get('@letters').children()
         .each((el, index) => {
           const expectedLetter = step[index].letter;
           const elementState = step[index].state
           const expectedBorderColor = colorMap.get(elementState); 
-          cy.wrap(el).find(`[data-cy=${elementState}]`).should('have.text', expectedLetter).should('have.css', 'border', `4px solid ${expectedBorderColor}`);
+          cy.wrap(el).find(`[data-cy=${elementState}]`).should('have.text', expectedLetter).should('have.css', 'border', `${expectedBorderColor}`);
         });
     });
   });
-  
 });

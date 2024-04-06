@@ -4,12 +4,15 @@ exports[`Circle Component renders circle changing 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle   changing"
+      data-cy="changing"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -20,6 +23,7 @@ exports[`Circle Component renders circle changing 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -29,12 +33,15 @@ exports[`Circle Component renders circle default 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -45,6 +52,7 @@ exports[`Circle Component renders circle default 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -54,12 +62,15 @@ exports[`Circle Component renders circle modified 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle   modified"
+      data-cy="modified"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -70,6 +81,7 @@ exports[`Circle Component renders circle modified 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -79,12 +91,15 @@ exports[`Circle Component renders circle with  tail 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -95,6 +110,7 @@ exports[`Circle Component renders circle with  tail 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 string"
+      data-cy="tail"
     >
       tail
     </div>
@@ -106,14 +122,17 @@ exports[`Circle Component renders circle with head 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head string"
+      data-cy="head"
     >
       head
     </div>
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -124,6 +143,7 @@ exports[`Circle Component renders circle with head 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -133,12 +153,15 @@ exports[`Circle Component renders circle with index 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_0"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -151,6 +174,7 @@ exports[`Circle Component renders circle with index 1`] = `
     </p>
     <div
       class="text text_type_input text_color_input mt-4 absolute tail60 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -160,12 +184,15 @@ exports[`Circle Component renders circle with isSmall 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle  small default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -176,6 +203,7 @@ exports[`Circle Component renders circle with isSmall 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -185,12 +213,15 @@ exports[`Circle Component renders circle with letter 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -203,6 +234,7 @@ exports[`Circle Component renders circle with letter 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -212,14 +244,17 @@ exports[`Circle Component renders circle with letter as head 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head string"
+      data-cy="head"
     >
       head
     </div>
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -232,6 +267,7 @@ exports[`Circle Component renders circle with letter as head 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -241,9 +277,11 @@ exports[`Circle Component renders circle with react element as head 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     >
       <div>
         Custom Head Content
@@ -251,6 +289,7 @@ exports[`Circle Component renders circle with react element as head 1`] = `
     </div>
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -261,6 +300,7 @@ exports[`Circle Component renders circle with react element as head 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -270,9 +310,11 @@ exports[`Circle Component renders circle with react element as tail 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     >
       <div>
         Custom Tail Content
@@ -280,6 +322,7 @@ exports[`Circle Component renders circle with react element as tail 1`] = `
     </div>
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -290,6 +333,7 @@ exports[`Circle Component renders circle with react element as tail 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
@@ -299,12 +343,15 @@ exports[`Circle Component renders circle without letter 1`] = `
 <DocumentFragment>
   <div
     class="content "
+    data-cy="index_undefined"
   >
     <div
       class="text text_type_input text_color_input mb-4 absolute head element"
+      data-cy="head"
     />
     <div
       class="circle   default"
+      data-cy="default"
     >
       <p
         class="text text_type_circle text_color_input letter"
@@ -315,6 +362,7 @@ exports[`Circle Component renders circle without letter 1`] = `
     />
     <div
       class="text text_type_input text_color_input mt-4 absolute tail30 element"
+      data-cy="tail"
     />
   </div>
 </DocumentFragment>
