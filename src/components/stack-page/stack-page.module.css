@@ -1,0 +1,21 @@
+.inputZone{
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  width:70%;
+  margin:auto
+}
+
+.clearButton{
+  margin-left: 50px;
+}
+
+.sequence{
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  column-gap: 20px;
+}
